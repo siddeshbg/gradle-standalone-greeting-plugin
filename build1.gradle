@@ -1,0 +1,16 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+    dependencies {
+        classpath group: 'org.gradle', name: 'customPluginNew',
+                  version: '1.0-SNAPSHOT'
+    }
+}
+
+apply plugin: 'org.samples.greeting'
+
+
+task greeting(type: org.gradle.GreetingTask) {
+    greeting = 'howdy!'
+}
