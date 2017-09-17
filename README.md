@@ -1,0 +1,1 @@
+# gradle-standalone-greeting-plugin
