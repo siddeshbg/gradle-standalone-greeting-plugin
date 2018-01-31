@@ -1,7 +1,7 @@
 # gradle-standalone-greeting-plugin
 
 ## Building and publishing to Nexus
-./gradlew -b build1.gradle greeting
+./gradlew -b build.gradle greeting
 
 ## Using the plugin
 ./gradlew -b build1.gradle greeting
